@@ -14,6 +14,8 @@ function WarmUp() {};
 
 WarmUp.prototype.bumpVersion = function(version) {
   /* Implement Me! */
+  version += 1
+  return version
 };
 
 
@@ -30,6 +32,8 @@ WarmUp.prototype.bumpVersion = function(version) {
  */
 WarmUp.prototype.stringLength = function(text) {
   /* Implement Me! */
+  	return length = text.length
+
 };
 
 
@@ -43,6 +47,7 @@ WarmUp.prototype.stringLength = function(text) {
  */
 WarmUp.prototype.currentDate = function() {
   /* Implement Me! */
+  return new Date()
 };
 
 module.exports = WarmUp;
